@@ -1,3 +1,7 @@
+
+
+![one](https://github.com/user-attachments/assets/148e03a4-5bf7-4bb8-8b40-8128fea41d0c)
+
 Web Development Intern Hiring Assignment:
 
 Recreate following sections from this page on Webflow: https://capabl.in/techfusionx
