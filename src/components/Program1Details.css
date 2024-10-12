@@ -1,0 +1,79 @@
+/* Program1Details component CSS */
+.program-details-container {
+    width: 600px;
+    height: 1350px;
+    margin: 0 auto; /* Center horizontally */
+    background-color: #111739; /* Dark background */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: flex-start; /* Align content to the left */
+    border-radius: 12px; /* Optional: Rounded container */
+    margin-top: 30px;
+}
+
+.section-block {
+    margin-bottom: 20px; /* Spacing between sections */
+    padding: 15px;
+    border: 1px solid #ccc; /* Border around each block */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background for each section */
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box;
+    text-align: left; /* Ensures text inside each block is left-aligned */
+}
+
+.section-block h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-block ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Bullet points */
+}
+
+.section-block p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.section-block li {
+    margin-bottom: 8px;
+}
+/* Button container styles */
+/* Button container styles */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Place buttons side by side */
+    margin-top: 10px;
+    gap: 40px; /* Adds space between the buttons */
+    margin-left: 85px;
+}
+
+button {
+    
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    padding-top: 4%;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.download-button {
+    background-color: #007bff; /* Blue color for download button */
+    color: white;
+}
+
+.enroll-button {
+    background-color: #28a745; /* Green color for enroll button */
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}

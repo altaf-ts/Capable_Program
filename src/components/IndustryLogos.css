@@ -1,0 +1,17 @@
+.logos-container {
+    margin-top: 50px;
+    padding-left: 100px;
+    
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .all-logos {
+    width: 100%;
+    max-width: 600px; /* Adjust according to the size you want */
+    height: auto;
+  }
+  

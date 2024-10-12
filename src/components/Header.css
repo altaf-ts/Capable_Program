@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #111631;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-bottom: -10%;
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Make it full width */
+    z-index: 1000; /* Keep it above other content */
+  }
+
+body {
+  margin: 0; /* Optional: reset body margin */
+  padding-top: 70px; /* Adjust based on your header height */
+}
+  
+  .logo img {
+    width: 150px;
+    padding: 5px;
+    border-image: fill;
+    margin-left: 47px;
+    padding-bottom: 3px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+  }
+  
+  nav ul li {
+    color: #fff;
+    cursor: pointer;
+    padding-right: px;
+    margin-right: 45px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    
+  }
+  nav ul li:hover {
+    color: #FFD700;             /* Yellow color on hover */
+  }
+  
+  a {
+    color: white;
+    text-decoration: none; /* Removes the underline */
+}
+
+a:hover {
+    color: #ddd; /* Optional: changes color on hover */
+}
+
+  
+  

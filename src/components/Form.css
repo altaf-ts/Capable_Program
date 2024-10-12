@@ -1,0 +1,50 @@
+.form-container {
+  color: #ffffff;
+  width: 420px;
+  height: 700px;
+  padding-right: 5px;
+  margin-left: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 600px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  background-color: #fdd535;
+  color: #1d2456;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  padding-top: 4%;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.form-container h2{
+  align-items: left;
+}
+
+.fee-section {
+  font-weight: bold;
+  color: #fffdfd;
+  margin-top: 5px; /* Reduced margin */
+}
+
+.selected-program {
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: -45px; /* Reduced margin */
+  margin-top: -10px;
+}
