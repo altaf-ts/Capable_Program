@@ -1,50 +1,84 @@
+/* src/components/Form.css */
+
 .form-container {
-  color: #ffffff;
-  width: 420px;
-  height: 700px;
-  padding-right: 5px;
-  margin-left: 15px;
+  color: #ffffff; /* Text color */
+  width: 420px; /* Container width */
+  height: auto; /* Allow height to adjust based on content */
+  padding: 20px; /* Adjusted padding for better spacing */
+  margin-left: 15px; /* Left margin for spacing */
+  background-color: #1d2456; /* Background color for the form container */
+  border-radius: 10px; /* Rounded corners */
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  height: 600px;
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Vertical stacking of form elements */
+  gap: 15px; /* Space between elements */
 }
 
 input, select, button {
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  outline: none;
+  padding: 10px; /* Padding for form elements */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* No border */
+  outline: none; /* Remove outline */
 }
 
 button {
-  background-color: #fdd535;
-  color: #1d2456;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 25px;
-  padding-top: 4%;
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
-  
+  background-color: #fdd535; /* Button background color */
+  color: #1d2456; /* Button text color */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer on hover */
+  border-radius: 25px; /* Rounded button */
+  font-size: larger; /* Larger font size */
+  font-family: Arial, Helvetica, sans-serif; /* Font family */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
 }
 
-.form-container h2{
-  align-items: left;
+button:hover {
+  background-color: #e1c835; /* Darker shade on hover */
 }
 
-.fee-section {
-  font-weight: bold;
-  color: #fffdfd;
-  margin-top: 5px; /* Reduced margin */
+.form-container h2 {
+  text-align: left; /* Align text to the left */
+  margin-bottom: 10px; /* Space below the heading */
 }
 
 .selected-program {
-  font-weight: bold;
-  color: #ffffff;
-  margin-bottom: -45px; /* Reduced margin */
-  margin-top: -10px;
+  font-weight: bold; /* Bold text for selected program */
+  color: #ffffff; /* Text color */
+  margin-top: -10px; /* Adjust margin */
+  margin-bottom: 10px; /* Space below selected program info */
+}
+
+
+
+.fee-section {
+  font-weight: bold; /* Bold text for fee */
+  color: #fffdfd; /* Text color for fee */
+  margin-top: 5px; /* Space above fee section */
+}
+
+.coupon-section {
+  display: flex; /* Flexbox layout for coupon section */
+  gap: 10px; /* Space between input and button */
+  align-items: center; /* Center vertically */
+}
+
+.coupon-section input {
+  flex: 1; /* Allow input to take available space */
+}
+
+.coupon-message {
+  color: #ff6347; /* Color for error message */
+  font-weight: bold; /* Bold text for messages */
+  margin-top: 5px; /* Space above message */
+}
+
+.program-fee {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  font-weight: bold; /* Make text bold */
+  color: #ffffff; /* Set text color */
+  margin-top: 10px; /* Add space above the program-fee section */
 }

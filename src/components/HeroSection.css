@@ -19,16 +19,16 @@
   color: #fdd535;
 }
 
-.right-section {
+/*.right-section {
   background-color: #252c60;
   padding: 30px;
   border-radius: 10px;
   margin-right: 40px;
   padding-top: 10px;
-  height: 650px;
+  height: 800px;
   margin-right: -40px;
  
-}
+} */
 
 /* Smooth Scrolling */
 html {
@@ -45,7 +45,7 @@ html {
   padding: 10px;
   text-shadow: 2px 2px 4px rgba(177, 173, 120, 0.822);
   letter-spacing: 1px;
-  margin-top: 55px;
+  margin-top: 190px;
 }
 
 
