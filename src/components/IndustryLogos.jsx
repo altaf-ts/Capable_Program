@@ -7,7 +7,7 @@ const IndustryLogos = () => {
     <div className="logos-container">
       
       <div className="logos">
-        <img src="text.png" alt="Industry Logos" className="all-logos" />
+        <img src="laptop.png" alt="Industry Logos" className="all-logos" />
       </div>
     </div>
   );
