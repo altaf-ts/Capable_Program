@@ -3,7 +3,7 @@
 ![one](https://github.com/user-attachments/assets/148e03a4-5bf7-4bb8-8b40-8128fea41d0c)
 
 Web Development Intern Hiring Assignment:
-Project Link:https://capable-program-tm18.vercel.app/
+Project Link: https://capable-program-tm18.vercel.app/
 
 Make sure to check each an evry section.
 
