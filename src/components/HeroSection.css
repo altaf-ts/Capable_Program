@@ -237,8 +237,8 @@ html {
 }
 
 .footer {
-  background-color: #0d1433; /* Dark background */
-  color: rgb(19, 32, 93);           /* White text */
+  background-color: #111b45; /* Dark background */
+  color: rgb(226, 227, 235);           /* White text */
   text-align: center;      /* Center the text */
   padding: 10px 0;        /* Add some padding */
   position: fixed;        /* Fix the footer at the bottom */
